@@ -1,0 +1,67 @@
+[INFO ] 2023-03-07 04:51:42.850 [main] alarm_POM - App is opened
+[INFO ] 2023-03-07 04:52:10.510 [main] alarm_POM - Clicked "APP"
+[INFO ] 2023-03-07 04:52:10.513 [main] alarm_POM - App is now on "APP" page
+[INFO ] 2023-03-07 04:52:11.697 [main] alarm_POM - Clicked ALARM
+[INFO ] 2023-03-07 04:52:11.700 [main] alarm_POM - App is now on alarm page
+[INFO ] 2023-03-07 04:52:12.928 [main] alarm_POM - Clicked ALARM CONTROLLER
+[INFO ] 2023-03-07 04:52:12.929 [main] alarm_POM - App is now on ALARM CONTROLLER page
+[INFO ] 2023-03-07 04:52:17.258 [main] alarm_POM - Clicked ONE SHOT ALARM
+[INFO ] 2023-03-07 04:52:17.260 [main] alarm_POM - The alram is set succesfully. Validated the test case
+[INFO ] 2023-03-07 04:54:30.016 [main] sms_messaging_POM - App is opened
+[INFO ] 2023-03-07 04:54:47.779 [main] sms_messaging_POM - Clicked "OS"
+[INFO ] 2023-03-07 04:54:47.780 [main] sms_messaging_POM - App is now on OS page
+[INFO ] 2023-03-07 04:54:50.966 [main] sms_messaging_POM - Clicked SMS MESSAGING
+[INFO ] 2023-03-07 04:54:50.968 [main] sms_messaging_POM - App is now on sms messaging page
+[INFO ] 2023-03-07 04:54:50.969 [main] sms_messaging_POM - Entering recipient name
+[INFO ] 2023-03-07 04:54:51.628 [main] sms_messaging_POM - Now Typing message...
+[INFO ] 2023-03-07 04:55:02.345 [main] sms_messaging_POM - Sending the message now
+[INFO ] 2023-03-07 04:55:07.690 [main] sms_messaging_POM - Message sent. Validated the test case
+[INFO ] 2023-03-09 13:08:25.974 [main] sms_messaging_POM - App is opened
+[INFO ] 2023-03-09 13:08:53.586 [main] sms_messaging_POM - Clicked "OS"
+[INFO ] 2023-03-09 13:08:53.587 [main] sms_messaging_POM - App is now on OS page
+[INFO ] 2023-03-09 13:10:33.835 [main] alarm_POM - App is opened
+[INFO ] 2023-03-09 13:10:53.884 [main] alarm_POM - Clicked "APP"
+[INFO ] 2023-03-09 13:10:53.886 [main] alarm_POM - App is now on "APP" page
+[INFO ] 2023-03-09 13:10:55.135 [main] alarm_POM - Clicked ALARM
+[INFO ] 2023-03-09 13:10:55.137 [main] alarm_POM - App is now on alarm page
+[INFO ] 2023-03-09 13:10:56.277 [main] alarm_POM - Clicked ALARM CONTROLLER
+[INFO ] 2023-03-09 13:10:56.278 [main] alarm_POM - App is now on ALARM CONTROLLER page
+[INFO ] 2023-03-09 13:11:00.570 [main] alarm_POM - Clicked ONE SHOT ALARM
+[INFO ] 2023-03-09 13:11:00.571 [main] alarm_POM - The alram is set succesfully. Validated the test case
+[INFO ] 2023-03-09 13:11:00.629 [main] change_wallpaper_pom - App is opened
+[INFO ] 2023-03-09 13:11:00.631 [main] change_wallpaper_pom - App is on Homepage 
+[INFO ] 2023-03-09 13:11:18.913 [main] change_wallpaper_pom - Clicked "APP"
+[INFO ] 2023-03-09 13:11:18.915 [main] change_wallpaper_pom - App is now on "APP" page
+[INFO ] 2023-03-09 13:11:19.021 [main] change_wallpaper_pom - Clicked ACTIVITY
+[INFO ] 2023-03-09 13:11:19.022 [main] change_wallpaper_pom - App is now on activity page
+[INFO ] 2023-03-09 13:11:43.465 [main] change_wallpaper_pom - Clicked SET WALLPAPER
+[INFO ] 2023-03-09 13:11:54.992 [main] change_wallpaper_pom - Selecting new wallpaler
+[INFO ] 2023-03-09 13:11:54.994 [main] change_wallpaper_pom - New Wallpaper is applied. Validated the test case
+[INFO ] 2023-03-09 13:11:55.019 [main] play_media_POM - App is opened
+[INFO ] 2023-03-09 13:12:13.474 [main] play_media_POM - Clicked MEDIA 
+[INFO ] 2023-03-09 13:12:13.476 [main] play_media_POM - App is now on media page
+[INFO ] 2023-03-09 13:12:14.618 [main] play_media_POM - Clicked MEDIA PLAYER
+[INFO ] 2023-03-09 13:12:14.618 [main] play_media_POM - App is now on Media player page
+[INFO ] 2023-03-09 13:12:24.936 [main] play_media_POM - Clicked PLAY AUDIO FROM RESOURCES
+[INFO ] 2023-03-09 13:12:24.937 [main] play_media_POM - The audio is playing now. Validated the test case
+[INFO ] 2023-03-09 13:12:24.964 [main] playMedia_video_POM - App is opened
+[INFO ] 2023-03-09 13:12:43.383 [main] playMedia_video_POM - Clicked MEDIA 
+[INFO ] 2023-03-09 13:12:43.384 [main] playMedia_video_POM - App is now on media page
+[INFO ] 2023-03-09 13:12:44.531 [main] playMedia_video_POM - Clicked MEDIA PLAYER
+[INFO ] 2023-03-09 13:12:44.532 [main] playMedia_video_POM - App is now on Media player page
+[INFO ] 2023-03-09 13:12:49.871 [main] playMedia_video_POM - Clicked PLAY VIDEO FROM LOCAL FILE
+[INFO ] 2023-03-09 13:12:49.872 [main] playMedia_video_POM - The video is playing now. Validated the test case
+[INFO ] 2023-03-09 13:12:49.900 [main] sms_messaging_POM - App is opened
+[INFO ] 2023-03-09 13:13:08.335 [main] sms_messaging_POM - Clicked "OS"
+[INFO ] 2023-03-09 13:13:08.337 [main] sms_messaging_POM - App is now on OS page
+[INFO ] 2023-03-09 13:13:10.338 [main] sms_messaging_POM - Clicked SMS MESSAGING
+[INFO ] 2023-03-09 13:13:10.340 [main] sms_messaging_POM - App is now on sms messaging page
+[INFO ] 2023-03-09 13:13:10.341 [main] sms_messaging_POM - Entering recipient name
+[INFO ] 2023-03-09 13:13:10.998 [main] sms_messaging_POM - Now Typing message...
+[INFO ] 2023-03-09 13:13:21.732 [main] sms_messaging_POM - Sending the message now
+[INFO ] 2023-03-09 13:13:27.097 [main] sms_messaging_POM - Message sent. Validated the test case
+[INFO ] 2023-03-09 13:13:27.114 [main] textToSpeech_POM - App is opened
+[INFO ] 2023-03-09 13:13:45.537 [main] textToSpeech_POM - Clicked "APP"
+[INFO ] 2023-03-09 13:13:45.538 [main] textToSpeech_POM - App is now on "APP" page
+[INFO ] 2023-03-09 13:14:00.328 [main] textToSpeech_POM - Clicked TEXT TO SPEECH 
+[INFO ] 2023-03-09 13:14:00.330 [main] textToSpeech_POM - Text to speech started. Validated the test case

@@ -1,0 +1,966 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 9, 2023 01:10:32 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@sixthTC</a><a class="dropdown-item" href="#">@firstTC</a><a class="dropdown-item" href="#">@secondTC</a><a class="dropdown-item" href="#">@fifthTC</a><a class="dropdown-item" href="#">@thirdTC</a><a class="dropdown-item" href="#">@fourthTC</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Set alarm in api demos app</p>
+            <p class="text-sm">
+              <span>1:10:33 pm</span> / <span>00:00:27:103</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Set alarm in api demos app</h5>
+<span class='badge badge-success'>03.09.2023 1:10:33 pm</span>
+<span class='badge badge-danger'>03.09.2023 1:11:00 pm</span>
+<span class='badge badge-default'>00:00:27:103</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>setting one shot alarm</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_is_on_the_homepage()">
+                <span>Given user is on the homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_hits_app()">
+                <span>When user hits app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_is_navigated_to_next_page()">
+                <span>Then user is navigated to next page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.next_user_hits_alarm()">
+                <span>When next user hits alarm</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_is_navigated_to_alarm_page()">
+                <span>Then user is navigated to alarm page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_next_hits_Alarm_Controller()">
+                <span>When user next hits Alarm Controller</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_is_navigated_to_Alarm_controller_page()">
+                <span>Then user is navigated to Alarm controller page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.user_next_hits_one_shot_alarm()">
+                <span>And user next hits one shot alarm</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.alarm_POM.the_alarm_is_set_succesfully()">
+                <span>Then the alarm is set succesfully</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Change device wallpaper</p>
+            <p class="text-sm">
+              <span>1:11:00 pm</span> / <span>00:00:54:369</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Change device wallpaper</h5>
+<span class='badge badge-success'>03.09.2023 1:11:00 pm</span>
+<span class='badge badge-danger'>03.09.2023 1:11:54 pm</span>
+<span class='badge badge-default'>00:00:54:369</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>changing the wallpaper of device</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.application_is_open()">
+                <span>Given application is open</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.user_is_on_home_page()">
+                <span>And user is on home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.user_clicks_app()">
+                <span>When user clicks app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.user_is_naigated_to_the_next_page()">
+                <span>Then user is naigated to the next page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.user_next_clicks_activity()">
+                <span>When user next clicks activity</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.user_is_navigated_to_the_actitivity_page()">
+                <span>Then user is navigated to the actitivity page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.next_user_scrolls_down_the_page_and_click_set_wallpaper()">
+                <span>And next user scrolls down the page and click set wallpaper</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.user_selects_a_new_wallpaper_and_hits_set_wallpaper()">
+                <span>When user selects a new wallpaper and hits set wallpaper</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.change_wallpaper_pom.the_new_wallpaper_is_successfully_applied_to_the_device()">
+                <span>Then the new wallpaper is successfully applied to the device</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">play media in api demos app</p>
+            <p class="text-sm">
+              <span>1:11:55 pm</span> / <span>00:00:54:856</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">play media in api demos app</h5>
+<span class='badge badge-success'>03.09.2023 1:11:55 pm</span>
+<span class='badge badge-danger'>03.09.2023 1:12:49 pm</span>
+<span class='badge badge-default'>00:00:54:856</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>playing audio from resources</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_defination.play_media_POM.user_is_on_the_app_homepage()">
+                <span>Given user is on the app homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.play_media_POM.user_hits_media()">
+                <span>When user hits media</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.play_media_POM.user_is_navigated_to_nextPage()">
+                <span>Then user is navigated to nextPage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.play_media_POM.next_user_hits_media_player()">
+                <span>When next user hits media player</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.play_media_POM.user_is_navigated_to_media_player_page()">
+                <span>Then user is navigated to media player page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.play_media_POM.user_hits_play_audio_from_resources()">
+                <span>And user hits play audio from resources</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.play_media_POM.the_audio_started_playing_successfully()">
+                <span>Then the audio started playing successfully and the test case is validated!</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>playing video from local file</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.user_is_on_the_homePage()">
+                <span>Given user is on the homePage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.user_hits_media()">
+                <span>When user clicks media</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.user_is_navigated_to_the_nextpage()">
+                <span>Then user is navigated to the nextpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.next_user_hits_mediaPlayer()">
+                <span>When next user hits mediaPlayer</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.user_is_navigated_to_mediaPlayer_page()">
+                <span>Then user is navigated to mediaPlayer page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.user_playing_video_from_local_file()">
+                <span>And user hit play video from local file</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.playMedia_video_POM.the_video_plays_and_test_case_is_validated()">
+                <span>Then the video plays and test case is validated!</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sms messaging in api demos app</p>
+            <p class="text-sm">
+              <span>1:12:49 pm</span> / <span>00:00:37:201</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">sms messaging in api demos app</h5>
+<span class='badge badge-success'>03.09.2023 1:12:49 pm</span>
+<span class='badge badge-danger'>03.09.2023 1:13:27 pm</span>
+<span class='badge badge-default'>00:00:37:201</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="49"><span class="badge log pass-bg mr-2">Pass</span>sending sms messages in api demos app</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.the_app_is_open()">
+                <span>Given the app is open</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.user_hits_OS()">
+                <span>When user hits OS</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.user_is_navigated_to_os_page()">
+                <span>Then user is navigated to os page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.next_user_hits_sms_messaging()">
+                <span>When next user hits sms messaging</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.user_is_navigated_to_sms_messaging_page()">
+                <span>Then user is navigated to sms messaging page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.user_then_enters_recipient_name()">
+                <span>When user enters recipient name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.enters_then_message()">
+                <span>And enters message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.sms_messaging_POM.hits_the_send_button_and_the_message_is_sent_successfully()">
+                <span>Then hits the send button and the message is sent successfully.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="60"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">text to speech in api demos app</p>
+            <p class="text-sm">
+              <span>1:13:27 pm</span> / <span>00:00:33:220</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">text to speech in api demos app</h5>
+<span class='badge badge-success'>03.09.2023 1:13:27 pm</span>
+<span class='badge badge-danger'>03.09.2023 1:14:00 pm</span>
+<span class='badge badge-default'>00:00:33:220</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="61"><span class="badge log pass-bg mr-2">Pass</span>testing text to speech functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Step_defination.textToSpeech_POM.the_app_is_open()">
+                <span>Given app is open</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.textToSpeech_POM.user_hits_app_options()">
+                <span>When user hits app options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.textToSpeech_POM.user_is_navigated_to_app_page()">
+                <span>Then user is navigated to app page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.textToSpeech_POM.next_user_swipe_down()">
+                <span>When next user swipe down</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.textToSpeech_POM.clicks_text_to_speech()">
+                <span>And clicks text to speech</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Step_defination.textToSpeech_POM.the_fuctionaltity_starts_working_and_is_validated()">
+                <span>Then the fuctionaltity starts working and is validated</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@sixthTC</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sixthTC</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:13:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='60' id='61'>testing text to speech functionality</a>
+<div class="">
+<span class="badge badge-default">text to speech in api demos app.testing text to speech functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@firstTC</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@firstTC</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:10:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>setting one shot alarm</a>
+<div class="">
+<span class="badge badge-default">Set alarm in api demos app.setting one shot alarm</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@secondTC</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@secondTC</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:11:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='15'>changing the wallpaper of device</a>
+<div class="">
+<span class="badge badge-default">Change device wallpaper.changing the wallpaper of device</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@fifthTC</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@fifthTC</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:12:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='48' id='49'>sending sms messages in api demos app</a>
+<div class="">
+<span class="badge badge-default">sms messaging in api demos app.sending sms messages in api demos app</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@thirdTC</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@thirdTC</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:11:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='28'>playing audio from resources</a>
+<div class="">
+<span class="badge badge-default">play media in api demos app.playing audio from resources</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@fourthTC</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@fourthTC</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:12:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='38'>playing video from local file</a>
+<div class="">
+<span class="badge badge-default">play media in api demos app.playing video from local file</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 9, 2023 01:10:32 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 9, 2023 01:14:00 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>5</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>6</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>46</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Set alarm in api demos app":27.103,"Change device wallpaper":54.369,"play media in api demos app":54.856,"sms messaging in api demos app":37.201,"text to speech in api demos app":33.22
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@sixthTC</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@firstTC</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@secondTC</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@fifthTC</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@thirdTC</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@fourthTC</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 6,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 46,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
